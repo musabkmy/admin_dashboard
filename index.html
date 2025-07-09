@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <aside>
+      <button id="logo">
+        <i class="fa-solid fa-font-awesome"></i>Dashboard
+      </button>
+      <ul id="to-main-pages" class="icon-list">
+        <li>
+          <button id="to-home"><i class="fa-solid fa-house"></i>Home</button>
+        </li>
+        <li>
+          <button id="to-profile">
+            <i class="fa-solid fa-address-card"></i>Profile
+          </button>
+        </li>
+        <li>
+          <button id="to-messages">
+            <i class="fa-solid fa-message"></i>Messages
+          </button>
+        </li>
+        <li>
+          <button id="to-history">
+            <i class="fa-solid fa-clock-rotate-left"></i>History
+          </button>
+        </li>
+        <li>
+          <button id="to-tasks">
+            <i class="fa-solid fa-file-lines"></i>Tasks
+          </button>
+        </li>
+        <li>
+          <button id="to-communities">
+            <i class="fa-solid fa-users"></i>Communities
+          </button>
+        </li>
+      </ul>
+      <ul id="to-sub-pages" class="icon-list">
+        <li>
+          <button id="to-settings">
+            <i class="fa-solid fa-gear"></i>Settings
+          </button>
+        </li>
+        <li>
+          <button id="to-support">
+            <i class="fa-solid fa-circle-question"></i>Support
+          </button>
+        </li>
+        <li>
+          <button id="to-privacy">
+            <i class="fa-solid fa-shield-halved"></i>Privacy
+          </button>
+        </li>
+      </ul>
+    </aside>
+
+    <div id="content">
+      <header>
+        <section id="top-header">
+          <div id="to-search">
+            <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+            <div id="search-button"></div>
+          </div>
+          <div id="to-notification-profile">
+            <i class="fa-regular fa-bell"></i>
+            <img
+              class="avatar"
+              src="./assets/images/avator.jpg"
+              alt="Manager Avatar"
+            />
+            <h5>Morgan Oakley</h5>
+          </div>
+        </section>
+        <section id="bottom-header">
+          <div>
+            <img
+              class="avatar"
+              src="./assets/images/avator.jpg"
+              alt="Manager Avatar"
+            />
+            <div class="sub-main-title">
+              <sub>Hi there,</sub>
+              <h3>Morgan Oakley (@morgan)</h3>
+            </div>
+          </div>
+          <div id="header-actions">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <div id="your-projects">
+          <h1>Your Projects</h1>
+          <div id="projects">
+            <div class="project rounded-card">
+              <h3>Super Cool Project</h3>
+              <p>
+                Aenean ac suscipit diam. Duis neque est, convallis eget nibh a,
+                finibus auctor lacus.
+              </p>
+              <div class="project-actions"></div>
+            </div>
+            <div class="rounded-card project">
+              <h3>Less Cool Project</h3>
+              <p>
+                Duis volutpat enim sit amet quam pulvinar vulputate. Aenean quis
+                faucibus mauris, non dignissim ligula. Phasellus gravida.
+              </p>
+              <div class="project-actions"></div>
+            </div>
+            <div class="project rounded-card">
+              <h3>Impossible App</h3>
+              <p>
+                Phasellus egestas velit erat, a bibendum ante ultricies non. Sed
+                a turpis et metus suscipit iaculis nec efficitur quam. In at
+                massa pretium tellus imperdiet cursus.
+              </p>
+              <div class="project-actions"></div>
+            </div>
+            <div class="project rounded-card">
+              <h3>Easy Peasy App</h3>
+              <p>
+                Pellentesque vitae tortor feugiat, vehicula mauris quis, viverra
+                odio. Sed ut viverra velit. Morbi ullamcorper eleifend
+                venenatis. Cras quis tincidunt massa, eget dapibus purus. Cras
+                eu est eu elit dapibus euismod. Donec in lobortis ex. Nunc
+                ornare scelerisque lacinia.
+              </p>
+              <div class="project-actions"></div>
+            </div>
+            <div class="project rounded-card">
+              <h3>Ad Blocker</h3>
+              <p>
+                Nulla luctus nisi ut libero sollicitudin, mattis convallis erat
+                pharetra. Nulla fermentum ante sapien, sed lacinia metus aliquam
+                in. Cras luctus varius dignissim.
+              </p>
+              <div class="project-actions"></div>
+            </div>
+            <div class="project rounded-card">
+              <h3>Monet Maker</h3>
+              <p>
+                lobortis leo sed, sagittis est. Integer eu tortor tincidunt,
+                interdum sem ut, maximus tellus. Aliquam commodo sollicitudin
+                sapien. Suspendisse id porta quam. Vivamus eros magna,
+                consectetur ut sodales a, aliquam id magna. Quisque pellentesque
+                nisl a est faucibus, vel eleifend metus rhoncus.
+              </p>
+              <div class="project-actions"></div>
+            </div>
+          </div>
+        </div>
+        <div id="announcements-trending">
+          <h1>Announcements</h1>
+          <div id="announcements" class="rounded-card">
+            <div>
+              <h3>Site Maintenance</h3>
+              <p>
+                Vestibulum maximus vitae neque vel vulputate. Integer ut
+                fringilla nisi. Vestibulum vitae tempus lacus. In viverra elit
+                ut ante varius, at hendrerit ante tincidunt.
+              </p>
+            </div>
+            <hr />
+            <div>
+              <h3>Site Maintenance</h3>
+              <p>
+                Praesent tincidunt elit non turpis volutpat semper. In vehicula
+                purus a mauris tincidunt, sit amet fermentum enim faucibus.
+                Etiam molestie erat lectus, auctor sollicitudin eros euismod
+                nec. Cras mollis ut arcu vitae vehicula. Quisque eget nisl
+                justo.
+              </p>
+            </div>
+            <hr />
+            <div>
+              <h3>Site Maintenance</h3>
+              <p>
+                Aliquam laoreet, nisl in tempus porttitor, purus nisi porta sem,
+                vitae auctor leo ex nec arcu. Cras ut iaculis metus.
+              </p>
+            </div>
+          </div>
+          <h1>Trending</h1>
+          <div id="trending-projects" class="rounded-card">
+            <div class="trending-project">
+              <img
+              class="avatar"
+              src="./assets/images/avator.jpg"
+            />
+            <h4>
+              @tegan<p>World Peace Builder</p>
+            </h4>
+            </div>
+            <div class="trending-project">
+              <img
+              class="avatar"
+              src="./assets/images/avator.jpg"
+            />
+            <h4>
+              @morgan<p>Super Cool Project</p>
+            </h4>
+            </div>
+            <div class="trending-project">
+              <img
+              class="avatar"
+              src="./assets/images/avator.jpg"
+            />
+            <h4>
+              @kendall<p>Life Changing App</p>
+            </h4>
+            </div>
+            <div class="trending-project">
+              <img
+              class="avatar"
+              src="./assets/images/avator.jpg"
+            />
+            <h4>
+              @alex<p>No traffic Mker</p>
+            </h4>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
